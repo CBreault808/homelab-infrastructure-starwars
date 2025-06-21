@@ -24,8 +24,7 @@ Each ship folder includes:
 - `00-overview.md` – specs, mission profile, and captain
 - Dated Markdown logs of deployments, updates, and incidents
 
-These serve as living logs for documenting real-world tasks, configuration changes, and troubleshooting steps
----
+-These serve as living logs for documenting real-world tasks, configuration changes, and troubleshooting steps
 
 ## 📓 Lab Notes
 
