@@ -14,4 +14,6 @@
 
 ## Notes
 
-Acts as the command center for the fleet of VMs in the node
+Acts as the Fleet Controller VM (Syslog/Monitoring) 
+Eyes and Ears of the fleet
+Simulates central logging server (ties into A+ objectives: security, logging, and monitoring)
