@@ -31,7 +31,7 @@ These serve as living logs for documenting real-world tasks, configuration chang
 
 General-purpose technical notes, test logs, and non-fleet-specific experiments are stored in:
 
-- [Lab Notes](./lab-notes)
+- [Lab Notes](./lab_notes)
 
 Examples might include:
 - OS deployment errors (e.g., Devastator's Windows 11 ISO failure)
