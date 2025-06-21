@@ -13,23 +13,25 @@ This lab environment is designed to help me:
 
 ## 🗂️ Fleet Logs (VM-Specific)
 
-| Ship Name      | Folder                  | Role                                  |
-|----------------|-------------------------|---------------------------------------|
-| **Executor**   | [`homelab-docs/01_executor/`](./homelab-docs/01_executor)   | Fleet controller / logging node       |
-| **Devastator** | [`homelab-docs/02_devastator/`](./homelab-docs/02_devastator) | End-user workstation for help desk simulation |
-| *More ships coming soon...* | – | – |
+| Ship Name      | Folder                                   | Role                                           |
+|----------------|-------------------------------------------|------------------------------------------------|
+| **Executor**   | [`01_executor`](./01_executor)           | Fleet controller / logging node               |
+| **Devastator** | [`02_devastator`](./02_devastator)       | End-user workstation and help desk simulation |
+| *More ships coming soon...* | –                           | –                                              |
 
-Each folder contains:
+
+Each ship folder includes:
 - `00-overview.md` – specs, mission profile, and captain
 - Dated Markdown logs of deployments, updates, and incidents
 
+These serve as living logs for documenting real-world tasks, configuration changes, and troubleshooting steps
 ---
 
 ## 📓 Lab Notes
 
 General-purpose technical notes, test logs, and non-fleet-specific experiments are stored in:
 
-- [`homelab-docs/lab_notes/`](./homelab-docs/lab_notes)
+- [Lab Notes](./lab-notes)
 
 Examples might include:
 - OS deployment errors (e.g., Devastator's Windows 11 ISO failure)
@@ -41,7 +43,7 @@ Examples might include:
 
 ## 🧭 Future Expansion: Red vs. Blue Cyber Lab
 
-This homelab is just the beginning of a larger plan:
+This homelab marks the beginning of a larger cybersecurity simulation project:
 
 > ⚔️ **Empire vs. Rebels — Red vs. Blue Battleground**
 
