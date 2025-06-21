@@ -86,5 +86,5 @@ This project makes use of:
 
 This homelab blends **technical skill-building** with **Star Wars lore** to make IT training immersive and engaging. Each fleet, ship, and captain is named to reflect its role in the fictional universe, while also mirroring its technical function in the infrastructure.
 
-> _“Deploy the fleet.”_ – Emperor Palpatine
+> _“The force will be with you, always.”_ – Obi-Wan Kenobi
 
