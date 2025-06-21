@@ -3,7 +3,7 @@
 **VM Name:** executor-001
 **OS:** Ubuntu Server 24.04.2 LTS
 **IP Address:** 192.168.0.87
-**Hostname:** executor-001
+**Hostname:** executor
 
 ## Installed Tools
 
