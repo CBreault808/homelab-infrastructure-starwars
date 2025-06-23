@@ -3,7 +3,7 @@
 **Mission Date:** 2025-06-22  
 **Remote Host:** ISS Tyrant  
 **Initiated From:** ISS Devastator  
-**Commanding Sysadmin:** Chris Breault  
+**Commanding Sysadmin:** CBreault808  
 **Target OS:** Windows 10 Home  
 **Specs (partial):** 4 GB RAM, ASUS Vivobook, Intel i3 8265NGW chipset
 
