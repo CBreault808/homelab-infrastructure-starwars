@@ -18,6 +18,7 @@ This lab environment is designed to help me:
 | **Executor**   | [`01_executor`](./01_executor)           | Fleet controller / logging node               |
 | **Devastator** | [`02_devastator`](./02_devastator)       | End-user workstation and help desk simulation |
 | **Tyrant**     | [`03_tyrant`](./03_tyrant)               | Simulated end-user system used for remote troubleshooting and diagnostics by fleet IT support |
+| *More ships coming soon...* | –                           | –                                              |
 
 
 Each ship folder includes:
