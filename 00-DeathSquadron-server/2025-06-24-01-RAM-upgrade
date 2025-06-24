@@ -1,0 +1,52 @@
+# After-Action Report: RAM Upgrade – DeathSquadron
+
+**Date:** 2025-06-24  
+**Subject:** Successful upgrade of DeathSquadron's memory module  
+**Commander:** CBreault808  
+**Ship ID:** DeathSquadron (Primary Node)
+
+---
+
+## 📌 Summary
+
+A new 16GB DDR4 RAM kit was successfully installed in the DeathSquadron server. The upgrade aimed to improve resource availability for existing and future VM deployments. Post-installation checks via the Proxmox GUI confirmed 15.53GB of available memory.
+
+---
+
+## 🔧 Actions Taken
+
+- Powered down DeathSquadron for hardware access  
+- Installed 2x8GB DDR4 RAM sticks into available DIMM slots  
+- Rebooted into Proxmox VE environment  
+- Verified hardware recognition through Proxmox GUI (`Summary` tab of node)  
+- Attempted CLI verification using `dmidecode`, which failed due to unsigned and inaccessible repositories  
+- Decided against modifying APT source lists due to potential system impact
+
+---
+
+## ✅ Outcome
+
+- **Success:** RAM upgrade confirmed operational
+- **Observed Memory:** 15.53GB total usable (system reserve accounted for)
+- **VM Performance Impact:** To be monitored, but expected to improve resource allocation flexibility
+- **CLI Inspection (Deferred):** Full spec inspection postponed to avoid modifying system repositories on a critical node
+
+---
+
+## 📡 Tactical Note
+
+Future CLI experimentation (e.g., tuning, package installs, repo edits) should be conducted on a non-critical system. The current plan is to eventually reassign the **ISS Tyrant** as a testbed platform once **Captain Ozzel** and crew are transferred to a newer vessel.
+
+---
+
+## 📍 Next Steps
+
+- [ ] Monitor memory consumption trends across VMs  
+- [ ] Log any performance-related anomalies or benefits post-upgrade  
+- [ ] Prepare ISS Tyrant for reassignment as a Proxmox testing ship  
+- [ ] Resume CLI package tests (e.g., `dmidecode`) in isolated environment
+
+---
+
+**End of Report**  
+*Filed to Naval High Command archives*
